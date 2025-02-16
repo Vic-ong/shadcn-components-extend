@@ -200,6 +200,7 @@ export const InputSelectTrigger = React.forwardRef<
         disabled={disabled}
         className={cn(
           "flex h-11 w-full items-center justify-between p-1 [&_svg]:pointer-events-auto",
+          "hover:bg-transparent",
           disabled && "[&_svg]:pointer-events-none",
           className,
         )}
