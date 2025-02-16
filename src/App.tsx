@@ -1,7 +1,9 @@
 import { InputSelectDemo } from "@/demo/input-select-demo";
+import { InputMultiSelectDemo } from "@/demo/input-multiselect-demo";
 
 const getComponent = (key: string | null) => {
   if (key === "input-select") return <InputSelectDemo />;
+  if (key === "input-multiselect") return <InputMultiSelectDemo />;
   return null;
 }
 
