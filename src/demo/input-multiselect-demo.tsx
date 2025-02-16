@@ -64,8 +64,8 @@ export const InputMultiSelectDemo: React.FC = () => {
       </InputMultiSelect>
 
       <div>
-        <div className="mb-2 text-sm">Selected Value:</div>
-        <div className="p-2 font-mono text-sm rounded-md bg-muted min-h-8">{value.join(",")}</div>
+        <div className="mb-2 text-sm">Selected Values ({value.length})</div>
+        <div className="p-2 font-mono text-sm rounded-md bg-muted min-h-8">{value.join(", ")}</div>
       </div>
     </div>
   )
